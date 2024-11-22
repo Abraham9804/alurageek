@@ -1,10 +1,22 @@
 {
-    "productos": [
-        {
-            "id":1,
-            "nombre": "nombre test",
-            "precio": 60.5,
-            "imagen": "assets/img/corazones.png"
-        }
-    ]
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "nombre test",
+      "precio": 60.5,
+      "imagen": "assets/img/corazones.png"
+    },
+    {
+      "nombre": "test2",
+      "precio": "100",
+      "imagen": "assets/img/corazones.png",
+      "id": 2
+    },
+    {
+      "nombre": "enero",
+      "precio": "100",
+      "imagen": "assets/img/corazones.png",
+      "id": 3
+    }
+  ]
 }

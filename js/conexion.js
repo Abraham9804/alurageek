@@ -13,6 +13,21 @@ async function listarProductos(){
 } 
 
 
+async function enviarVideo(nombre, precio, imagen){
+        const solicitudCrear = await fetch("http://localhost:3001/productos",{
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                nombre, precio, imagen
+            })
+        })
+        if(!solicitudCrear.ok){
+            throw new Error ("Error al enviar el producto para crear")
+        }
+    
+}
+
+
 export const conexionApi = {
-    listarProductos
+    listarProductos, enviarVideo
 } 
