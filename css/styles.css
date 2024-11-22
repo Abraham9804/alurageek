@@ -174,9 +174,49 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 32px 28px 32px 28px;
 } 
 
 .footer_information{
     font-family: "IBM Plex Mono", monospace;
     
+}
+
+footer a{
+    text-decoration: none;
+}
+footer a:visited{
+    color: white;
+}
+
+
+/* Media querys */
+@media screen and (min-width: 1024px){
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 50px 30px 50px 30px;
+    }
+
+    .section__form{
+        width: 40%;
+        justify-content: start;
+        margin-top: 60px;
+        padding: 40px;
+    }
+    .section_products{
+        width: 60%;
+        margin-top: 60px;
+        padding: 40px;
+    }
+
+    .section_products h2{
+        margin: 0;
+    }
+    .list__products{
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.5);
+    }
+
 }
