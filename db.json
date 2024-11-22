@@ -3,7 +3,8 @@
         {
             "id":1,
             "nombre": "nombre test",
-            "precio": 60.5
+            "precio": 60.5,
+            "imagen": "assets/img/corazones.png"
         }
     ]
 }
