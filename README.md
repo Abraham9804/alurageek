@@ -13,7 +13,7 @@ Esta aplicación permite crear, mostrar, y eliminar productos.
  3) Instala las dependencias del proyecto
     >>node install
  4) Ejecuta json-server
- 5) npx json-server --watch db.json --port 3001
+   >>npx json-server --watch db.json --port 3001
 
 ## Tecnologías utilizadas
 - JavaScript
