@@ -21,3 +21,5 @@ Esta aplicación permite crear, mostrar, y eliminar productos.
 - JSON Server
 - CSS
 - HTML
+
+![image](https://github.com/user-attachments/assets/62804531-3882-4779-841c-32803e1851e5)
