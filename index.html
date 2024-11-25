@@ -44,10 +44,15 @@
         <div class="footer_information">
             <p>Desarrollado por <a href="https://www.linkedin.com/in/abraham-romero9804" target="_blank">Abraham Romero</a></p>
         </div>
-        <p>Alura Latam 2024</p>
+        <p id="footer_year">Alura Latam <span></span></p>
     </footer>
     <script src="js/mostrarProductos.js" type="module"></script>
     <script src="js/crearProducto.js" type="module"></script>
     <script src="js/eliminarProducto.js" type="module"></script>
+    <script>
+        const yearContainer = document.querySelector("#footer_year span")
+        const year = new Date().getFullYear()
+        yearContainer.textContent = year
+    </script>
 </body>
 </html>
