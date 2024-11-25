@@ -63,7 +63,7 @@ form{
     flex-direction: column;
 }
 
-input{
+form input{
     width: 350px;
     height: 58px;
     border: 3px var(--color-secundario) solid;
@@ -72,7 +72,7 @@ input{
     margin-top: 40px;
 }
 
-input[type="text"]::placeholder{
+form input[type="text"]::placeholder{
     color: var(--color-secundario);
     font-family: "Press Start 2P", system-ui;
     font-size: 16px;
@@ -127,6 +127,7 @@ input[type="text"]::placeholder{
     margin: 34px 10px 44px 10px;
     display: flex;
     flex-direction: column;
+    
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -135,6 +136,7 @@ input[type="text"]::placeholder{
     height: 174px;
     border: 3px solid black;
     border-radius: 10px;
+    align-self: center;
 }
 
 .name_product{
@@ -175,7 +177,14 @@ footer{
     align-items: center;
     color: white;
     padding: 32px 28px 32px 28px;
+    gap: 10px;
 } 
+
+.footer__alura{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
 
 .footer_information{
     font-family: "IBM Plex Mono", monospace;

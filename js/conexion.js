@@ -13,7 +13,7 @@ async function listarProductos(){
 } 
 
 
-async function enviarVideo(nombre, precio, imagen){
+async function enviarProducto(nombre, precio, imagen){
         const solicitudCrear = await fetch("http://localhost:3001/productos",{
             method: "POST",
             headers: {"Content-Type": "application/json"},
@@ -27,7 +27,18 @@ async function enviarVideo(nombre, precio, imagen){
     
 }
 
+async function solicitudEliminar(id){
+    const fetchEliminar = await fetch(`http://localhost:3001/productos/${id}`,{
+        method:"DELETE"
+    })
+    if(!solicitudEliminar.ok){
+        throw new Error("Error en la solicitud para eliminar")
+    }
+    const fetchEliminarJson = fetchEliminar.json()
+   console.log(fetchEliminarJson)
+
+}
 
 export const conexionApi = {
-    listarProductos, enviarVideo
+    listarProductos, enviarProducto, solicitudEliminar
 } 

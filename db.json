@@ -1,22 +1,16 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "nombre test",
-      "precio": 60.5,
-      "imagen": "assets/img/corazones.png"
+      "nombre": "test",
+      "precio": "10",
+      "imagen": "assets/img/gameboy.png",
+      "id": 1
     },
     {
-      "nombre": "test2",
-      "precio": "100",
-      "imagen": "assets/img/corazones.png",
+      "nombre": "test",
+      "precio": "10",
+      "imagen": "assets/img/starwars.png",
       "id": 2
-    },
-    {
-      "nombre": "enero",
-      "precio": "100",
-      "imagen": "assets/img/corazones.png",
-      "id": 3
     }
   ]
 }

@@ -11,7 +11,7 @@ async function crearProducto(e){
     const imagen = form.querySelector("#imagen").value
 
     try{
-        await conexionApi.enviarVideo(nombre, precio, imagen)
+        await conexionApi.enviarProducto(nombre, precio, imagen)
         window.location.reload()
     }
     catch(err){
